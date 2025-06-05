@@ -1,0 +1,14 @@
+/* === Estilo Único para ES === */
+.cpa-highlight {
+    background: linear-gradient(135deg, rgba(193, 28, 31, 0.08), rgba(255, 105, 105, 0.08)) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.claim-btn {
+    background: linear-gradient(90deg, #FF5722, #F44336); /* Vermelho vibrante */
+    box-shadow: 0 4px 12px rgba(255, 87, 34, 0.3);
+}
+
+.cookie-banner {
+    background: rgba(33, 33, 33, 0.8);
+}
