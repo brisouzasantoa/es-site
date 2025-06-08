@@ -3,49 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🏆 Principales Plataformas para Ganar Criptomonedas</title>
+    <title>🏆 Mejores Plataformas para Ganar Cripto</title>
     <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
 
 <div class="container">
     <header>
-        <h1>🏆 Principales Plataformas para Ganar Criptomonedas</h1>
-        <p>Retiros Instantáneos • Bonificaciones Exclusivas • Calificada por la Comunidad</p>
+        <h1>🏆 Mejores Plataformas para Ganar Cripto</h1>
+        <p>Retiros instantáneos • Bonos exclusivos • Calificaciones por la comunidad</p>
     </header>
 
     <!-- Seção Destacada de CPA Offers -->
     <section class="cpa-highlight">
-        <h2>🔥 Ofertas de CPA Calientes que Pagan Ahora</h2>
-        <p>Consulta las Mejores Ofertas de CPA que Actualmente están Pagando Criptomonedas Reales — Seleccionadas para Ti.</p>
-        <button class="claim-btn" onclick="window.location.href='https://moneylistpro.xyz/cpa-offers.html'">View  CPA Offers →</button>
+        <h2>🔥 Ofertas CPA que pagan ahora</h2>
+        <p>Mira las mejores ofertas CPA que actualmente pagan cripto real — seleccionadas manualmente.</p>
+        <button class="claim-btn" onclick="window.location.href='https://moneylistpro.xyz/cpa-offers.html'">Ver  Ofertas CPA →</button>
     </section>
 
-    <!-- Ad Space -->
+    <!-- Espaço de anúncio -->
     <div class="ad-space">
-        <p>Ad space (Kadam, Propeller Ads, Adsterra)</p>
+        <p>Espacio publicitario (Kadam, Propeller Ads, Adsterra)</p>
     </div>
 
     <!-- Rodapé -->
     <footer class="site-footer">
         <div class="footer-content">
             <div class="footer-section about">
-                <h3><a href="/about.html" class="footer-link">About</a></h3>
+                <h3><a href="/about.html" class="footer-link">Sobre el Sitio</a></h3>
             </div>
             <div class="footer-section policy">
-                <h3><a href="/privacy-policy.html" class="footer-link">Privacy Policy</a></h3>
+                <h3><a href="/privacy-policy.html" class="footer-link">Política de Privacidad</a></h3>
             </div>
         </div>
 
         <!-- Cookie Banner -->
         <div id="cookieConsent" class="cookie-banner">
-            <p>We use cookies to enhance your browsing experience.</p>
-            <button onclick="acceptCookies()">Accept</button>
+            <p>Usamos cookies para mejorar tu experiencia.</p>
+            <button onclick="acceptCookies()">Aceptar</button>
         </div>
 
         <!-- Direitos Autorais -->
         <div class="footer-bottom">
-            &copy; 2025 Crypto Faucets Guide | All Rights Reserved
+            &copy; 2025 Guía de Faucets de Cripto | Todos los derechos reservados
         </div>
     </footer>
 </div>
@@ -53,8 +53,10 @@
 <script src="assets/script.js"></script>
 <script>
     window.addEventListener('load', () => {
-        rotateNotifications();
-        showWelcomeNotification();
+        if (typeof rotateNotifications === 'function') {
+            rotateNotifications();
+            showWelcomeNotification();
+        }
     });
 </script>
 
